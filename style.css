@@ -1,0 +1,12 @@
+.container { /*necesito un padre para poder realizar la perpectiva 3d, usando perspective*/
+    perspective: 1000px;
+}
+
+.card {
+    display: block;
+    margin: 100px auto; /*para centrar el card*/
+    transition: transform .1s linear;
+}
+
+
+
